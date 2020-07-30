@@ -1,0 +1,14 @@
+{
+  "name": "com.7bytes.gene",
+  "version": "1.0.0",
+  "description": "gene.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lin",
+  "license": "ISC",
+  "displayName": "Gene",
+  "hideInEditor": false,
+  "unity": "2019.3"
+}

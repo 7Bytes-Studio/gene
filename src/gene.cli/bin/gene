@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+'use strict';
+//gene make:project demo -v=2019.3.f.1
+
+const mp = require('../commands/make_project');
+
+
+Main(process.argv);
+
+
+
+
+
+function Main(args)
+{
+    process.title = 'gene';
+    const cmd  = args[2];
+    const cmd_args = args.slice(3,args.length);
+    Dispatch(cmd,cmd_args);
+}
+
+function Dispatch(cmd,cmd_args)
+{
+    console.log(cmd)
+    console.log(cmd_args)
+
+    let i = cmd.indexOf(":");
+    if (i!=-1)
+    {
+        let c1 = cmd.slice(0,i);
+        let c2 = cmd.slice(i+1,cmd.length);
+
+        if (c1=='make')
+        {
+            switch (c2)
+            {
+                case 'project':{
+                    mp.Execute();
+                } break;
+                default:break;
+            }
+        }
+    }
+}
+
+
+
+
+
+

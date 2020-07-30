@@ -1,0 +1,9 @@
+src/gene.cli/.idea/
+src/gene.unity/.idea/
+src/gene.unity/Library/
+src/gene.unity/Packages/System.Runtime.CompilerServices.Unsafe.4.5.2/
+src/gene.unity/Packages/Microsoft.Bcl.AsyncInterfaces.1.1.0/
+src/gene.unity/Packages/System.Threading.Tasks.Extensions.4.5.2/
+src/gene.unity/obj/
+src/gene.unity/gene.unity.sln
+src/gene.unity/Logs/

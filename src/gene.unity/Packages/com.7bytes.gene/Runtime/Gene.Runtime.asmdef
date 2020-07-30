@@ -1,0 +1,16 @@
+{
+    "name": "Gene.Runtime",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Autofac.dll",
+        "Microsoft.Bcl.AsyncInterfaces.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
